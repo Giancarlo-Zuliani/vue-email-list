@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- Rem tene, verba sequentur -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" charset="utf-8"></script>
+    <title>Vue mail list</title>
+  </head>
+  <body>
+    <main id="root">
+        <h5 v-for='mail in mailList'>{{mail}}</h5>
+    </main>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
